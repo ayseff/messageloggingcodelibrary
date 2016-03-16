@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.5.0" projectFile="C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\pfMessageLogsHelp.shfbproj" started="1/10/2016 10:56:35 AM">
+<buildStep step="Initializing">
+</buildStep>
+<buildStep step="FindingTools">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\bin\Release\PFMessageLogs.dll
+    Found assembly &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\bin\Release\PFMessageLogs.dll&#39;
+Source: C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\bin\Release\PFMessageLogs.xml
+Source: C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFGlobalObjects\bin\Release\PFGlobalObjects.dll
+    Found assembly &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFGlobalObjects\bin\Release\PFGlobalObjects.dll&#39;
+Source: C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFGlobalObjects\bin\Release\PFGlobalObjects.xml
+
+Copying XML comments files
+    C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\bin\Release\PFMessageLogs.XML -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PFMessageLogs.XML
+    C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFGlobalObjects\bin\Release\PFGlobalObjects.XML -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PFGlobalObjects.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0420
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loaded 2 assemblies for reflection and 0 dependency assemblies.
+  Info: Wrote information on 4 namespaces, 27 types, and 331 members
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:01.5451
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    0 attribute nodes removed
+    0 explicit interface implementations removed
+    26 local and base class EII elements removed
+    Last step completed in 00:00:00.1650
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:02.8492
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.0620
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\adm.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\adm.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\adm_arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\adm_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\adm_dev.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\adm_dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\adm_dev_arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\alert_caution.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\alert_note.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\alert_security.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\big_adm.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\big_adm.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\big_arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\big_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\big_dev.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\big_dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\big_kw.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\big_kw.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\box.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\box.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\Caution.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\Caution.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\CFW.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\collall.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\collall.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\collapse.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\collapse.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\collapse_all.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\collapse_all.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\copycode.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\copycode.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\copycodeHighlight.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\copycodeHighlight.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\dev.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\dev_arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\dev_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\dropdown.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\dropdown.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\dropdownHover.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\dropdownHover.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\drpdown.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\drpdown.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\drpdown_orange.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\drpdown_orange.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\drpdown_orange_up.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\drpdown_orange_up.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\drpup.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\drpup.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\exp.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\exp.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\expall.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\expall.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\expand_all.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\expand_all.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\filter1a.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\filter1a.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\filter1c.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\filter1c.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\footer.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\footer.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\gradient.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\gradient.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\greencheck.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\greencheck.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\greychck.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\greychck.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\header_prev_next.jpg -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\header_prev_next.jpg
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_blank.jpg -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_blank.jpg
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_logo.GIF -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_logo.GIF
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\kw.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_adm.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\kw_adm.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_adm_arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\kw_adm_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_adm_dev.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_adm_dev_arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\kw_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_dev.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\kw_dev.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\kw_dev_arch.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\kw_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\LastChild.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\LastChild.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\load.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\load.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\load_hover.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\load_hover.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\note.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pencil.GIF -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privclass.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privdelegate.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privenum.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privenum.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privenumeration.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privevent.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privextension.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privfield.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privinterface.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privmethod.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privproperty.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\privstructure.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protclass.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protdelegate.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protenum.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protenum.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protenumeration.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protevent.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protextension.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protfield.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protinterface.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protmethod.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protoperator.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protproperty.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\protstructure.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubclass.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubdelegate.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubenum.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubenum.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubenumeration.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubevent.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubextension.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubfield.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubinterface.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubmethod.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\puboperator.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubproperty.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\pubstructure.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\requirements1a.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\requirements1a.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\requirements1c.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\requirements1c.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\save.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\save.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\save_hover.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\save_hover.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\security.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\seealso1a.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\seealso1a.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\seealso1c.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\seealso1c.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\slMobile.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\static.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\icons\xna.gif -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\CheckboxMenu.js -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\scripts\CheckboxMenu.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\CommonUtilities.js -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\scripts\CommonUtilities.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\Dropdown.js -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\scripts\Dropdown.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\EventUtilities.js -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\scripts\EventUtilities.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_feedBack.js -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\scripts\script_feedBack.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\scripts\script_manifold.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\scripts\SplitScreen.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\styles\Presentation.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\Presentation.css -&gt; C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\styles\Whidbey\Presentation.css
+    Last step completed in 00:00:00.1370
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.4170
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.0180
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.2900
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: CopyFromFileComponent: Instantiating component.
+  Info: CopyFromFileComponent: Loading data file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml&#39;.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 194306 elements in 410 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: SyntaxComponent: Instantiating component.
+  Info: SyntaxComponent: Loaded 3 syntax generators.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\2.0\Runtime\v4.0&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PFMessageLogs.XML&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PFGlobalObjects.XML&#39;.
+  Info: CopyFromIndexComponent: Indexed 145740 elements in 129 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 2 subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ShowMissingComponent: Instantiating component.
+  Info: ShowMissingComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Show Missing Documentation Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: VersionInfoComponent: Instantiating component.
+  Info: VersionInfoComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Version Information Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: CodeBlockComponent: Instantiating component.
+  Info: CodeBlockComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Code Block Component.  Copyright c 2006-2012, Eric Woodruff, All Rights Reserved.
+      Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+      http://SHFB.CodePlex.com
+  Info: TransformComponent: Instantiating component.
+  Info: PostTransformComponent: Instantiating component.
+  Info: PostTransformComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Post-Transform Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Multi-Format Output Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Loading components for HtmlHelp1 format
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locationinformation&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;assemblynameandmodule&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locale&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_send&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_headerfeedback&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_alias&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_product&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_body&#39; with value in file &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Loaded 641 shared content items.
+  Info: ResolveConceptualLinksComponent: Instantiating component.
+  Info: ResolveConceptualLinksComponent: Collected 1 targets directories.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 194306 reference targets.
+  Info: SaveComponent: Instantiating component.
+  Info: BuildAssembler: Building topic R:Project_Documentation
+  Info: BuildAssembler: Building topic N:AppGlobals
+  Info: BuildAssembler: Building topic T:AppGlobals.AppConfig
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.AppConfig
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.AppConfig.#ctor
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.AppConfig
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfig.GetAllAppSettings
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfig.GetBooleanValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfig.GetDoubleValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfig.GetFloatValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfig.GetIntValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfig.GetLongValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfig.GetStringValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfig.SetConfigValue
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.AppConfig.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetAllAppSettings
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetAllAppSettings(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetBooleanValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetBooleanValueFromConfigFile(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetConfigValue(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetDoubleValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetDoubleValueFromConfigFile(System.String,System.Double)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetFloatValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetFloatValueFromConfigFile(System.String,System.Single)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetIntValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetIntValueFromConfigFile(System.String,System.Int32)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetLongValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetLongValueFromConfigFile(System.String,System.Int64)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetStringValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.GetStringValueFromConfigFile(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.SetConfigValue(System.Collections.Generic.KeyValuePair{System.String,System.String})
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.SetConfigValue(System.Collections.Generic.KeyValuePair{System.String,System.String}[])
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfig.SetConfigValue(System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}})
+  Info: BuildAssembler: Building topic T:AppGlobals.AppConfigExt
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.AppConfigExt
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.AppConfigExt
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.#ctor
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.GetAllAppSettings
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.GetBooleanValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.GetDoubleValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.GetFloatValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.GetIntValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.GetLongValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.GetStringValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppConfigExt.SetConfigValue
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.#ctor(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetAllAppSettings
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetAllAppSettings(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetBooleanValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetBooleanValueFromConfigFile(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetConfigValue(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetDoubleValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetDoubleValueFromConfigFile(System.String,System.Double)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetFloatValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetFloatValueFromConfigFile(System.String,System.Single)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetIntValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetIntValueFromConfigFile(System.String,System.Int32)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetLongValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetLongValueFromConfigFile(System.String,System.Int64)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetStringValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.GetStringValueFromConfigFile(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.SetConfigValue(System.Collections.Generic.KeyValuePair{System.String,System.String})
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.SetConfigValue(System.Collections.Generic.KeyValuePair{System.String,System.String}[])
+  Info: BuildAssembler: Building topic M:AppGlobals.AppConfigExt.SetConfigValue(System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}})
+  Info: BuildAssembler: Building topic T:AppGlobals.AppInfo
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.AppInfo
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.AppInfo.#ctor
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.AppInfo
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.AppInfo
+  Info: BuildAssembler: Building topic M:AppGlobals.AppInfo.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.AppInfo.#ctor
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyCompany
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyCopyright
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyCulture
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyDescription
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyName
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyProduct
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyTitle
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyTrademark
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyVersion
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.AssemblyVersionEx
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.CurrentEntryAssembly
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.CurrentEntryAssemblyDirectory
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.CurrentExecutingAssembly
+  Info: BuildAssembler: Building topic P:AppGlobals.AppInfo.CurrentExecutingAssemblyDirectory
+  Info: BuildAssembler: Building topic T:AppGlobals.AppMessages
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.AppMessages
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.AppMessages.#ctor
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.AppMessages
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.AppMessages
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppMessages.DisplayAlertMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppMessages.DisplayErrorMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppMessages.DisplayInfoMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppMessages.DisplayMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppMessages.DisplayWarningMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppMessages.WriteToAppLog
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.AppMessages.#ctor
+  Info: BuildAssembler: Building topic P:AppGlobals.AppMessages.AppLogFilename
+  Info: BuildAssembler: Building topic P:AppGlobals.AppMessages.DefaultMessageBoxCaption
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayAlertMessage(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayAlertMessage(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayAlertMessage(System.String,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayErrorMessage(System.Exception)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayErrorMessage(System.Exception,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayErrorMessage(System.Exception,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayErrorMessage(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayErrorMessage(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayErrorMessage(System.String,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayInfoMessage(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayInfoMessage(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayInfoMessage(System.String,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayMessage(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayMessage(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayMessage(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayWarningMessage(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayWarningMessage(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.DisplayWarningMessage(System.String,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.FormatErrorMessage(System.Exception)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.FormatErrorMessageWithStackTrace(System.Exception)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.GetAppLogFilename
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.WriteToAppLog(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.WriteToAppLog(System.String,System.Windows.Forms.MessageBoxIcon)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppMessages.WriteToEventLog(System.String,System.Diagnostics.EventLogEntryType)
+  Info: BuildAssembler: Building topic T:AppGlobals.AppNumberGlobals
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.AppNumberGlobals
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.AppNumberGlobals
+  Info: BuildAssembler: Building topic M:AppGlobals.AppNumberGlobals.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.AppNumberGlobals.ConvertByteUnits(System.Double,AppGlobals.ByteUnits,AppGlobals.ByteUnits)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppNumberGlobals.GetEnumValues(System.Type)
+  Info: BuildAssembler: Building topic T:AppGlobals.AppTextGlobals
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.AppTextGlobals
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.AppTextGlobals.#ctor
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.AppTextGlobals
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppTextGlobals.ConvertStringToBoolean
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppTextGlobals.ConvertStringToDateTime
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppTextGlobals.ConvertStringToDouble
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppTextGlobals.ConvertStringToFloat
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppTextGlobals.ConvertStringToInt
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppTextGlobals.ConvertStringToLong
+  Info: BuildAssembler: Building topic Overload:AppGlobals.AppTextGlobals.ConvertStringToTimeSpan
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.AppTextGlobals.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertByteArrayToString(System.Byte[])
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertCharArrayToString(System.Char[])
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertCharToString(System.Char)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToBoolean(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToBoolean(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToByteArray(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToDateTime(System.String,System.DateTime)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToDateTime(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToDouble(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToDouble(System.String,System.Double)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToFloat(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToFloat(System.String,System.Single)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToInt(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToInt(System.String,System.Int32)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToLong(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToLong(System.String,System.Int64)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToTimeSpan(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertStringToTimeSpan(System.String,System.TimeSpan)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ConvertYesNoToTrueFalse(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.RepeatChar(System.Char,System.Int32)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.ReverseString(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.AppTextGlobals.StringLength(System.String)
+  Info: BuildAssembler: Building topic T:AppGlobals.ByteUnits
+  Info: BuildAssembler: Building topic T:AppGlobals.CAppForms
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.CAppForms
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.CAppForms.#ctor
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.CAppForms
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.CAppForms
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CAppForms.CloseAllForms
+  Info: BuildAssembler: Building topic M:AppGlobals.CAppForms.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.CAppForms.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.CAppForms.Add(System.Windows.Forms.Form)
+  Info: BuildAssembler: Building topic M:AppGlobals.CAppForms.CloseAllForms
+  Info: BuildAssembler: Building topic M:AppGlobals.CAppForms.CloseAllForms(System.Windows.Forms.Form)
+  Info: BuildAssembler: Building topic P:AppGlobals.CAppForms.Forms
+  Info: BuildAssembler: Building topic M:AppGlobals.CAppForms.Remove(System.Windows.Forms.Form)
+  Info: BuildAssembler: Building topic T:AppGlobals.CAppGlobalErrorHandler
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.CAppGlobalErrorHandler
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.CAppGlobalErrorHandler.#ctor
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.CAppGlobalErrorHandler
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.CAppGlobalErrorHandler
+  Info: BuildAssembler: Building topic M:AppGlobals.CAppGlobalErrorHandler.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.CAppGlobalErrorHandler.#ctor
+  Info: BuildAssembler: Building topic P:AppGlobals.CAppGlobalErrorHandler.CancelApplicationOnGlobalError
+  Info: BuildAssembler: Building topic M:AppGlobals.CAppGlobalErrorHandler.GlobalErrorHandler(System.Object,System.Threading.ThreadExceptionEventArgs)
+  Info: BuildAssembler: Building topic P:AppGlobals.CAppGlobalErrorHandler.WriteToAppLog
+  Info: BuildAssembler: Building topic P:AppGlobals.CAppGlobalErrorHandler.WriteToEventLog
+  Info: BuildAssembler: Building topic T:AppGlobals.CFormsCollection
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.CFormsCollection
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.CFormsCollection.#ctor
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.CFormsCollection
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.CFormsCollection
+  Info: BuildAssembler: Building topic M:AppGlobals.CFormsCollection.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.CFormsCollection.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.CFormsCollection.Add(System.Windows.Forms.Form)
+  Info: BuildAssembler: Building topic M:AppGlobals.CFormsCollection.Remove(System.Windows.Forms.Form)
+  Info: BuildAssembler: Building topic T:AppGlobals.ConsoleMessages
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.ConsoleMessages
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.ConsoleMessages.#ctor
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.ConsoleMessages
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.ConsoleMessages
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ConsoleMessages.DisplayAlertMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ConsoleMessages.DisplayErrorMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ConsoleMessages.DisplayInfoMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ConsoleMessages.DisplayMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ConsoleMessages.DisplayWarningMessage
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ConsoleMessages.WriteToAppLog
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:AppGlobals.ConsoleMessages.#ctor
+  Info: BuildAssembler: Building topic P:AppGlobals.ConsoleMessages.AppLogFilename
+  Info: BuildAssembler: Building topic P:AppGlobals.ConsoleMessages.CopyConsoleOutputToAppLog
+  Info: BuildAssembler: Building topic P:AppGlobals.ConsoleMessages.DefaultMessageBoxCaption
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayAlertMessage(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayAlertMessage(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayAlertMessage(System.String,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayErrorMessage(System.Exception)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayErrorMessage(System.Exception,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayErrorMessage(System.Exception,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayErrorMessage(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayErrorMessage(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayErrorMessage(System.String,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayInfoMessage(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayInfoMessage(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayInfoMessage(System.String,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayMessage(System.String,AppGlobals.ConsoleMessages.pfConsoleMessageType)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayMessage(System.String,AppGlobals.ConsoleMessages.pfConsoleMessageType,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayMessage(System.String,AppGlobals.ConsoleMessages.pfConsoleMessageType,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayWarningMessage(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayWarningMessage(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.DisplayWarningMessage(System.String,System.Boolean,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.FormatErrorMessage(System.Exception)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.FormatErrorMessageWithStackTrace(System.Exception)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.WriteToAppLog(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.WriteToAppLog(System.String,AppGlobals.ConsoleMessages.pfConsoleMessageType)
+  Info: BuildAssembler: Building topic M:AppGlobals.ConsoleMessages.WriteToEventLog(System.String,System.Diagnostics.EventLogEntryType)
+  Info: BuildAssembler: Building topic T:AppGlobals.ConsoleMessages.pfConsoleMessageType
+  Info: BuildAssembler: Building topic T:AppGlobals.CustomAppConfig
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.CustomAppConfig
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.CustomAppConfig
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CustomAppConfig.GetAllAppSettings
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CustomAppConfig.GetBooleanValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CustomAppConfig.GetDoubleValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CustomAppConfig.GetFloatValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CustomAppConfig.GetIntValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CustomAppConfig.GetLongValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CustomAppConfig.GetStringValueFromConfigFile
+  Info: BuildAssembler: Building topic Overload:AppGlobals.CustomAppConfig.SetConfigValue
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.#ctor(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.CreateCustomConfigFile(System.String,System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetAllAppSettings
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetAllAppSettings(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetBooleanValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetBooleanValueFromConfigFile(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetConfigValue(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetDoubleValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetDoubleValueFromConfigFile(System.String,System.Double)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetFloatValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetFloatValueFromConfigFile(System.String,System.Single)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetIntValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetIntValueFromConfigFile(System.String,System.Int32)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetLongValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetLongValueFromConfigFile(System.String,System.Int64)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetStringValueFromConfigFile(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.GetStringValueFromConfigFile(System.String,System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.SetConfigValue(System.Collections.Generic.KeyValuePair{System.String,System.String})
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.SetConfigValue(System.Collections.Generic.KeyValuePair{System.String,System.String}[])
+  Info: BuildAssembler: Building topic M:AppGlobals.CustomAppConfig.SetConfigValue(System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}})
+  Info: BuildAssembler: Building topic T:AppGlobals.InputBox
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.InputBox
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.InputBox
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.InputBox
+  Info: BuildAssembler: Building topic Events.T:AppGlobals.InputBox
+  Info: BuildAssembler: Building topic Overload:AppGlobals.InputBox.Dispose
+  Info: BuildAssembler: Building topic Overload:AppGlobals.InputBox.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.InputBox.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.InputBox.#ctor(System.Windows.Forms.Control)
+  Info: BuildAssembler: Building topic P:AppGlobals.InputBox.CancelButtonText
+  Info: BuildAssembler: Building topic P:AppGlobals.InputBox.Caption
+  Info: BuildAssembler: Building topic M:AppGlobals.InputBox.CloseForm
+  Info: BuildAssembler: Building topic M:AppGlobals.InputBox.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic M:AppGlobals.InputBox.HideForm
+  Info: BuildAssembler: Building topic P:AppGlobals.InputBox.InputText
+  Info: BuildAssembler: Building topic P:AppGlobals.InputBox.InputTextLabel
+  Info: BuildAssembler: Building topic P:AppGlobals.InputBox.OkButtonText
+  Info: BuildAssembler: Building topic T:AppGlobals.ModelessPopupDialog
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.ModelessPopupDialog
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.ModelessPopupDialog
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.ModelessPopupDialog
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ModelessPopupDialog.#ctor
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ModelessPopupDialog.Show
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialog.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialog.#ctor(System.Int32)
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialog.ActionButtonPressed
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialog.ButtonLabel
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialog.Close
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialog.Frm
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialog.IsVisible
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialog.MaxSecondsToDisplayPopup
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialog.Message
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialog.SetFocusToPopup
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialog.Show
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialog.Show(System.String)
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialog.Show(System.String,System.String)
+  Info: BuildAssembler: Building topic T:AppGlobals.ModelessPopupDialogForm
+  Info: BuildAssembler: Building topic AllMembers.T:AppGlobals.ModelessPopupDialogForm
+  Info: BuildAssembler: Building topic Methods.T:AppGlobals.ModelessPopupDialogForm
+  Info: BuildAssembler: Building topic Properties.T:AppGlobals.ModelessPopupDialogForm
+  Info: BuildAssembler: Building topic Events.T:AppGlobals.ModelessPopupDialogForm
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ModelessPopupDialogForm.Dispose
+  Info: BuildAssembler: Building topic Overload:AppGlobals.ModelessPopupDialogForm.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialogForm.#ctor
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialogForm.#ctor(System.Int32)
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialogForm.ActionButtonPressed
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialogForm.ButtonText
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialogForm.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic P:AppGlobals.ModelessPopupDialogForm.MessageText
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialogForm.OnGotFocus(System.EventArgs)
+  Info: BuildAssembler: Building topic M:AppGlobals.ModelessPopupDialogForm.SetFocusToActionButton
+  Info: BuildAssembler: Building topic N:PFMessageLogs
+  Info: BuildAssembler: Building topic T:PFMessageLogs.DllMessageLog
+  Info: BuildAssembler: Building topic AllMembers.T:PFMessageLogs.DllMessageLog
+  Info: BuildAssembler: Building topic Methods.T:PFMessageLogs.DllMessageLog
+  Info: BuildAssembler: Building topic Properties.T:PFMessageLogs.DllMessageLog
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.#ctor
+  Info: BuildAssembler: Building topic P:PFMessageLogs.DllMessageLog.AllowFileErase
+  Info: BuildAssembler: Building topic P:PFMessageLogs.DllMessageLog.Caption
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.Clear
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.CloseWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.Focus
+  Info: BuildAssembler: Building topic P:PFMessageLogs.DllMessageLog.Font
+  Info: BuildAssembler: Building topic P:PFMessageLogs.DllMessageLog.FontSize
+  Info: BuildAssembler: Building topic P:PFMessageLogs.DllMessageLog.Form
+  Info: BuildAssembler: Building topic P:PFMessageLogs.DllMessageLog.FormIsVisible
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.HideWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.LoadFile(System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.DllMessageLog.RetainFocus
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.SaveFile(System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.DllMessageLog.ShowDatetime
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.ShowWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.DllMessageLog.WriteLine(System.String)
+  Info: BuildAssembler: Building topic T:PFMessageLogs.MessageLog
+  Info: BuildAssembler: Building topic AllMembers.T:PFMessageLogs.MessageLog
+  Info: BuildAssembler: Building topic Methods.T:PFMessageLogs.MessageLog
+  Info: BuildAssembler: Building topic Properties.T:PFMessageLogs.MessageLog
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.#ctor
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLog.AllowFileErase
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLog.Caption
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.Clear
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.CloseWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.Focus
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLog.Font
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLog.FontSize
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLog.Form
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLog.FormIsVisible
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.HideWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.LoadFile(System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLog.RetainFocus
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.SaveFile(System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLog.ShowDatetime
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.ShowWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLog.WriteLine(System.String)
+  Info: BuildAssembler: Building topic T:PFMessageLogs.MessageLogForm
+  Info: BuildAssembler: Building topic AllMembers.T:PFMessageLogs.MessageLogForm
+  Info: BuildAssembler: Building topic Methods.T:PFMessageLogs.MessageLogForm
+  Info: BuildAssembler: Building topic Properties.T:PFMessageLogs.MessageLogForm
+  Info: BuildAssembler: Building topic Events.T:PFMessageLogs.MessageLogForm
+  Info: BuildAssembler: Building topic Overload:PFMessageLogs.MessageLogForm.Dispose
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLogForm.#ctor
+  Info: BuildAssembler: Building topic P:PFMessageLogs.MessageLogForm.AllowFileErase
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLogForm.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.MessageLogForm.FileSave(System.Boolean)
+  Info: BuildAssembler: Building topic T:PFMessageLogs.TextLogFile
+  Info: BuildAssembler: Building topic AllMembers.T:PFMessageLogs.TextLogFile
+  Info: BuildAssembler: Building topic Methods.T:PFMessageLogs.TextLogFile
+  Info: BuildAssembler: Building topic Properties.T:PFMessageLogs.TextLogFile
+  Info: BuildAssembler: Building topic Overload:PFMessageLogs.TextLogFile.#ctor
+  Info: BuildAssembler: Building topic Overload:PFMessageLogs.TextLogFile.WriteLine
+  Info: BuildAssembler: Building topic M:PFMessageLogs.TextLogFile.#ctor
+  Info: BuildAssembler: Building topic M:PFMessageLogs.TextLogFile.#ctor(System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.TextLogFile.ApplicationName
+  Info: BuildAssembler: Building topic P:PFMessageLogs.TextLogFile.DateTimeFormat
+  Info: BuildAssembler: Building topic P:PFMessageLogs.TextLogFile.FileName
+  Info: BuildAssembler: Building topic P:PFMessageLogs.TextLogFile.MachineName
+  Info: BuildAssembler: Building topic P:PFMessageLogs.TextLogFile.ShowDatetime
+  Info: BuildAssembler: Building topic P:PFMessageLogs.TextLogFile.ShowErrorWarningTypes
+  Info: BuildAssembler: Building topic P:PFMessageLogs.TextLogFile.ShowMessageType
+  Info: BuildAssembler: Building topic M:PFMessageLogs.TextLogFile.TruncateFile
+  Info: BuildAssembler: Building topic M:PFMessageLogs.TextLogFile.WriteBlankLine
+  Info: BuildAssembler: Building topic M:PFMessageLogs.TextLogFile.WriteLine(System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.TextLogFile.WriteLine(System.String,PFMessageLogs.TextLogFile.LogMessageType)
+  Info: BuildAssembler: Building topic T:PFMessageLogs.TextLogFile.LogMessageType
+  Info: BuildAssembler: Building topic T:PFMessageLogs.WindowsEventLog
+  Info: BuildAssembler: Building topic AllMembers.T:PFMessageLogs.WindowsEventLog
+  Info: BuildAssembler: Building topic Methods.T:PFMessageLogs.WindowsEventLog
+  Info: BuildAssembler: Building topic Properties.T:PFMessageLogs.WindowsEventLog
+  Info: BuildAssembler: Building topic Overload:PFMessageLogs.WindowsEventLog.#ctor
+  Info: BuildAssembler: Building topic Overload:PFMessageLogs.WindowsEventLog.CreateEventSource
+  Info: BuildAssembler: Building topic Overload:PFMessageLogs.WindowsEventLog.DeleteEventSource
+  Info: BuildAssembler: Building topic Overload:PFMessageLogs.WindowsEventLog.SourceExists
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.#ctor
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.#ctor(PFMessageLogs.WindowsEventLog.EventLogName)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.#ctor(PFMessageLogs.WindowsEventLog.EventLogName,System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.#ctor(PFMessageLogs.WindowsEventLog.EventLogName,System.String,System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.#ctor(System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.#ctor(System.String,System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.#ctor(System.String,System.String,System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.CreateEventSource(System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.CreateEventSource(System.String,System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.CreateEventSource(System.String,System.String,System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.WindowsEventLog.CurrentWorkingDirectory
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.DeleteEventSource(System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.DeleteEventSource(System.String,System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.WindowsEventLog.ErrorMessages
+  Info: BuildAssembler: Building topic P:PFMessageLogs.WindowsEventLog.EventLog
+  Info: BuildAssembler: Building topic P:PFMessageLogs.WindowsEventLog.EventSource
+  Info: BuildAssembler: Building topic P:PFMessageLogs.WindowsEventLog.EventSourceInitializer
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.GetConfigValue(System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.GetStringValueFromConfigFile(System.String,System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.WindowsEventLog.LogName
+  Info: BuildAssembler: Building topic P:PFMessageLogs.WindowsEventLog.MachineName
+  Info: BuildAssembler: Building topic P:PFMessageLogs.WindowsEventLog.OutputMessages
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.SourceExists(System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.SourceExists(System.String,System.String)
+  Info: BuildAssembler: Building topic M:PFMessageLogs.WindowsEventLog.WriteEntry(System.String,PFMessageLogs.WindowsEventLog.WindowsEventLogEntryType)
+  Info: BuildAssembler: Building topic T:PFMessageLogs.WindowsEventLog.EventLogName
+  Info: BuildAssembler: Building topic T:PFMessageLogs.WindowsEventLog.WindowsEventLogEntryType
+  Info: BuildAssembler: Building topic N:PFMessageLogs.Interfaces
+  Info: BuildAssembler: Building topic T:PFMessageLogs.Interfaces.IMessageLog
+  Info: BuildAssembler: Building topic AllMembers.T:PFMessageLogs.Interfaces.IMessageLog
+  Info: BuildAssembler: Building topic Methods.T:PFMessageLogs.Interfaces.IMessageLog
+  Info: BuildAssembler: Building topic Properties.T:PFMessageLogs.Interfaces.IMessageLog
+  Info: BuildAssembler: Building topic P:PFMessageLogs.Interfaces.IMessageLog.AllowFileErase
+  Info: BuildAssembler: Building topic P:PFMessageLogs.Interfaces.IMessageLog.Caption
+  Info: BuildAssembler: Building topic M:PFMessageLogs.Interfaces.IMessageLog.Clear
+  Info: BuildAssembler: Building topic M:PFMessageLogs.Interfaces.IMessageLog.CloseWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.Interfaces.IMessageLog.Focus
+  Info: BuildAssembler: Building topic P:PFMessageLogs.Interfaces.IMessageLog.Font
+  Info: BuildAssembler: Building topic P:PFMessageLogs.Interfaces.IMessageLog.FontSize
+  Info: BuildAssembler: Building topic P:PFMessageLogs.Interfaces.IMessageLog.Form
+  Info: BuildAssembler: Building topic P:PFMessageLogs.Interfaces.IMessageLog.FormIsVisible
+  Info: BuildAssembler: Building topic M:PFMessageLogs.Interfaces.IMessageLog.HideWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.Interfaces.IMessageLog.LoadFile(System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.Interfaces.IMessageLog.RetainFocus
+  Info: BuildAssembler: Building topic M:PFMessageLogs.Interfaces.IMessageLog.SaveFile(System.String)
+  Info: BuildAssembler: Building topic P:PFMessageLogs.Interfaces.IMessageLog.ShowDatetime
+  Info: BuildAssembler: Building topic M:PFMessageLogs.Interfaces.IMessageLog.ShowWindow
+  Info: BuildAssembler: Building topic M:PFMessageLogs.Interfaces.IMessageLog.WriteLine(System.String)
+  Info: BuildAssembler: Building topic N:System.Windows.Forms
+  Info: BuildAssembler: Building topic T:System.Windows.Forms.MessageBoxManager
+  Info: BuildAssembler: Building topic AllMembers.T:System.Windows.Forms.MessageBoxManager
+  Info: ShowMissingComponent: Auto-documenting constructor M:System.Windows.Forms.MessageBoxManager.#ctor
+  Info: BuildAssembler: Building topic Methods.T:System.Windows.Forms.MessageBoxManager
+  Info: BuildAssembler: Building topic Fields.T:System.Windows.Forms.MessageBoxManager
+  Info: BuildAssembler: Building topic M:System.Windows.Forms.MessageBoxManager.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:System.Windows.Forms.MessageBoxManager.#ctor
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.Abort
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.Cancel
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.Ignore
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.No
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.OK
+  Info: BuildAssembler: Building topic M:System.Windows.Forms.MessageBoxManager.Register
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.Retry
+  Info: BuildAssembler: Building topic M:System.Windows.Forms.MessageBoxManager.Unregister
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.Yes
+  Info: BuildAssembler: Building topic T:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT
+  Info: BuildAssembler: Building topic AllMembers.T:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT
+  Info: BuildAssembler: Building topic Methods.T:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT
+  Info: BuildAssembler: Building topic Fields.T:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.hwnd
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.hwnd
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.lParam
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.lParam
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.lResult
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.lResult
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.message
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.message
+  Info: BuildAssembler: Building topic F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.wParam
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:System.Windows.Forms.MessageBoxManager.CWPRETSTRUCT.wParam
+  Info: Processed 460 topics
+    Last step completed in 00:07:04.4273
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.5.0
+Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1
+Processed 460 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Documentation.hhc
+    Last step completed in 00:00:01.3341
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 7 seconds
+  
+  462	Topics
+  
+  5,329	Local links
+  
+  9,739	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\ProFast\Projects\DotNetCodeLibrariesV3\pfMessageLogCodeLibrary\PFMessageLogs\Help\Working\Output\HtmlHelp1\Documentation.chm, 899,995 bytes
+  
+  Compression decreased file by 6,223,213 bytes.
+  
+    Last step completed in 00:00:08.3085
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.1320
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 01/10/2016 11:03 AM.  Total time: 00:07:19.9172
+
+</buildStep>
+</shfbBuild>
